@@ -92,23 +92,28 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="374dp"
+        android:layout_height="252dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:text="add text in here"
+        android:layout_marginTop="8dp"
+        android:padding="16sp"
+        android:text="This research highlights an extensive overview of the regional municipality of Halton, Ontario, its history, tourist attraction sites, recreational sites including parks, trails, conservations, and their cultural values to the residents, indigenous communities, and tourists. The Regional Municipality of Halton, or just Halton Region for short, is a regional municipality located in the Golden Horseshoe area of Southern Ontario. The Regional Municipality of Halton, was established on January 1, 1974, taking over from the former Halton County. Until the year 2000, the regional chairperson was appointed by the Ontario government, but has been an elected position since then."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="265dp"
+        android:layout_width="288dp"
         android:layout_height="142dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/conservation_halton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

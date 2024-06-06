@@ -105,38 +105,104 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Question 1"
-                android:textSize="24sp" />
+                android:text="Question:\ What makes Crawford Lake unique?"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus ex sed leo dictum, in bibendum nibh vehicula. Nunc dignissim mauris et tortor posuere " />
+                android:text="Crawford Lake is a meromictic lake, meaning it has distinct layers of water that don't intermix. This has allowed for the undisturbed accumulation of sediments over time, creating yearly sediment layers called varves that provide an invaluable record of environmental changes and human activity in the area." />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Question 2"
-                android:textSize="24sp" />
+                android:text="Question: Are there any features for individuals with disabilities or special needs?"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="The app provides accessibility information for each of the conservations, including details about accessible trails, facilities, and amenities. " />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Question: Can I go swimming or boating in Crawford Lake? "
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="need some text here" />
+                android:text="No, swimming, boating, or any other recreational activities within Crawford Lake itself are not permitted to protect the sensitive ecosystem and preserve the integrity of the sediment record for research purposes. " />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question: Are there any special events or programs offered at Crawford Lake?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The conservation area hosts a variety of educational programs, guided tours, and events throughout the year. These may include archaeological tours, Indigenous cultural demonstrations, stargazing nights, and nature walks. Check the app's event calendar for the latest offerings and registration details. " />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question: How can I get involved in volunteer or stewardship activities?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The app has a dedicated section for Halton's parks and conservation areas’ officials contact information. You can directly reach out to them and find information about upcoming events, register as a volunteer, and connect with local environmental organizations. " />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question: Does the app offer any tour guide? "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, the app includes a variety of resources and information such as virtual tours, guides, and multimedia content that highlights the natural and cultural heritage of Halton's parks. You can also find information about guided tours and events organized by park staff or local organizations." />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question: How often is the app's information updated? "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextViewThe app's content, including trail conditions, event calendars, and park advisories, is regularly updated to ensure you have access to the most current and accurate information about Halton's conservation areas and parks." />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question: Are there any features for reporting issues or providing feedback? "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, the app includes a feature that enables users to report any issues they encounter within the parks, such as trail maintenance concerns, wildlife sightings, or suggestions for improvements. This feedback helps park authorities better manage and maintain these natural spaces. " />
         </LinearLayout>
     </ScrollView>
 

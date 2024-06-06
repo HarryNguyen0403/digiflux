@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127"
-        tools:srcCompat="@drawable/park_1" />
+        app:srcCompat="@drawable/rough_trade" />
 
     <TextView
         android:id="@+id/textView3"
@@ -30,49 +30,59 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Add some text for Hot Park "
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="7dp" />
+        android:layout_width="389dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="One of the more advanced trail at Kelso, also one of the most fun. Following old fence lines it snakes through the trees and over rocks."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Hot Park Title"
-        android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        tools:layout_editor_absoluteX="15dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Rough Trade"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="400dp"
-        android:layout_height="120sp"
+        android:layout_width="344dp"
+        android:layout_height="108dp"
         android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        tools:layout_editor_absoluteX="11dp"
-        tools:srcCompat="@drawable/park_1" />
+        app:srcCompat="@drawable/stunt_line" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Parks in this Community"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        tools:layout_editor_absoluteX="7dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:text="6th Line Stunt Trail"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Add some text for Parks community"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:layout_editor_absoluteX="7dp" />
+        android:layout_width="384dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="6th Line Stunt Trail is a highly rated 167 m moderately popular black diamond singletrack trail located near Milton Ontario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -80,26 +90,30 @@
         android:layout_height="120dp"
         android:layout_marginTop="90dp"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/park_1"
+        app:srcCompat="@drawable/duck_blind"
         tools:layout_editor_absoluteX="11dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Hot Park Title"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        tools:layout_editor_absoluteX="13dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="&quot;Duck Blind&quot; Look Out"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Add some text for Hot Park"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:layout_editor_absoluteX="14dp" />
+        android:layout_width="379dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="A quick detour off of the Wildlife Walkway with a view of the water."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <ImageButton
         android:id="@+id/imageButton2"
